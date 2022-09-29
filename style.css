@@ -6,7 +6,6 @@
 }
 
 
-
 .cvbody{
     background-color: #f8f7f7;
     background-size: cover;
@@ -72,9 +71,15 @@
     margin-left: 10px;
 }
 
-.aboutme img, .education .flex2 img{
+.aboutme img{
     height: 30px;
     width: 30px;
+    margin-right: 10px;
+}
+
+.education .flex2 img{
+    height: 40px;
+    width: 40px;
     margin-right: 10px;
 }
 
@@ -110,7 +115,7 @@
     width: 837px;
 }
 
-.education{
+.education, .skill{
     display: block;
     height: fit-content;
     background: white;
@@ -144,3 +149,34 @@
     padding: 10px;
 }
 
+#smol{
+    font-size: 10px;
+}
+
+.word, .pp, .excel, .chinese, .english, .malay{
+    padding: 10px;
+    border-bottom: 0.1px solid #ebe9e9;
+
+}
+
+
+.lightgrey{
+    color:#000 !important;
+    background-color:#bebebe!important;
+    width: 400px;
+}
+
+.round{
+    border-radius:16px;
+}
+
+
+.contain{
+    padding:0.01em 16px;
+}
+
+.blue{
+    color:#009688 !important;
+    background-color:#009688 !important;
+    font-size: 20px;
+}
